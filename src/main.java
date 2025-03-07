@@ -8,5 +8,6 @@ public class main {
         caramelo.andar();
         caramelo.dormir();
         caramelo.brincar();
+        caramelo.comer();
     }
 }

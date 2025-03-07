@@ -15,14 +15,18 @@ public abstract class Animais implements ComportamentoAnimais {
             this.idade = idade;
         }
 
+        @Override
         public void andar() {
             System.out.println(getNome() + " está andando");
         }
 
+
+        @Override
         public void comer() {
             System.out.println(getNome() + " está comendo");
         }
 
+        @Override
         public void dormir() {
             System.out.println(getNome() + " está Dormindo. ZZZZ");
         }
